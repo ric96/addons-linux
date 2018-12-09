@@ -10,8 +10,8 @@
 #include "ncfb.h"
 #include "gx6605s.h"
 
-static __u32 xres = 800;
-static __u32 yres = 480;
+static __u32 xres = 1920;
+static __u32 yres = 1080;
 static __u32 bits_per_pixel = 16;
 
 static int __init ncfb_vpu_parse(char *p)
